@@ -8,5 +8,5 @@ resource "aws_internet_gateway" "three" {
 
 resource "aws_route_table_association" "two" {
   subnet_id      = aws_subnet.two.id
-  route_table_id = aws_route_table.myrt.id
+  route_table_id = aws_route_table.four.id
 }
