@@ -1,6 +1,6 @@
 resource "aws_autoscaling_group" "two" {
   name                 = "my-asg"
-  launch_configuration = aws_launch_configuration.one.id # Changed to use id instead of name
+  launch_configuration = aws_launch_configuration.one.id
   min_size             = 2
   max_size             = 3
   desired_capacity     = 2
