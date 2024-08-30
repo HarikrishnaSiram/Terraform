@@ -1,2 +1,0 @@
-command to see list of resources we created using Terraform : "terraform state list"
-command to update state list if any resource is deleted manually : "terraform apply --refresh-only"
